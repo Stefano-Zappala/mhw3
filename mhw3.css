@@ -1,0 +1,301 @@
+body{
+   margin: 0;
+   font-family: 'Bebas Neue', cursive;
+   background-color: rgb(190, 190, 190);
+}
+
+header{
+   color: rgb(255, 255, 255);
+   background-image: url("SalaCinema.jpg");
+   background-position: center;
+   background-size: cover;
+   height: 600px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+header nav{
+   background-color:rgb(150, 0, 0);
+   height: 60px;
+   border-bottom: 5px solid black;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+
+header nav a{
+   color: black;
+   background-color: rgba(207, 187, 2, 0.876);
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 1px 15px ;
+   font-size: 27px;
+}
+
+header nav a:hover{
+   color: rgb(255, 240, 240);
+   background-color: rgba(78, 78, 78, 0.548);
+}
+
+div.titolo{
+   margin-top: 50px;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+
+header h1{
+   text-align: center;
+   z-index: 1;
+   margin-top: -15px;
+}
+
+header h1 em{
+   color: rgba(0, 0, 0, 0.876);
+   font-size: 45px;
+   letter-spacing: 1px;
+}
+
+header h1 strong{
+   font-size: 5vw;
+   color: rgb(0, 0, 0);
+   font-family:'Times New Roman', Times, serif;
+   background-color: rgba(170, 170, 170, 0.952);
+   padding: 5px 50px ;
+   border-radius: 5px; 
+}
+
+
+#logo{
+   position: relative;
+   text-align: center;
+}
+
+#logo img{
+   margin-top: -60px;
+   height: 120px;
+   width: 120px;
+   border: 2px solid black;
+   border-radius: 100px;
+}
+
+p.profilo1{
+   text-align: center;
+   font-weight: bold;
+   font-size: 25px;
+   margin-top: -5px;
+}
+
+
+
+#forms{
+   display: flex;
+   justify-content: center;
+   width:100%;
+   margin: auto;
+}
+
+
+
+div.loghi{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -30px;
+}
+
+
+
+#cerca{
+   display: flex;
+   justify-content: space-around;
+}
+
+#form_film{
+  background-color: rgb(150, 0, 0);
+   text-align: center;
+   font-size: 25px;
+   border: 5PX SOLID black;
+   border-radius: 15px;
+   width: 40%;
+   max-width: 600px;
+   height: 8%;
+   max-height: 200px;
+   margin: 30px 0px 30px 0px;
+   padding: 5px 30px ;
+}
+
+.oval{
+   height: 35px;
+   width: 300px;
+   border-radius: 6px;
+   text-align: center;
+   font-size: 20px;
+}
+
+
+#stanghetta{
+   border-top: 5px solid black;
+   margin: 20px 100px 50px 100px;
+}
+
+#SCRITTA
+{
+   text-align: center;
+   font-size: 50px;
+   margin-bottom: 30px;
+}
+
+#film{
+  text-align: center;
+   padding: 10px 15px;
+   border: 2px solid rgb(0, 0, 0);
+   
+   border-radius: 10px;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+#contenitore{
+   display: flex;
+   justify-content: space-around;
+}
+
+#ris_ricerca,
+#ris_ricerca_album{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  text-align: center;
+  background-color: rgb(138, 138, 138);
+  width: 70%;
+}
+
+#ris_ricerca img,
+#ris_ricerca_album img{
+  max-width: 300px;
+  height: 400px;
+  border-bottom: 4px solid rgb(233, 41, 41);
+  margin-bottom: 15px;
+}
+
+
+
+#ris_ricerca .film,
+#ris_ricerca_album .album {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 550px;
+
+  border: 3px solid rgb(20, 20, 20);
+   border-radius: 5px;
+  margin: 20px;
+  font-size: 20px;
+  background-color: rgb(236, 236, 236);
+}
+
+span1{
+   color: rgb(255, 0, 0);
+   font-size: 120%
+}
+
+@media (max-width: 700px) {
+   
+   header
+   {
+      height: 400px;
+   }
+
+   header nav a
+   {
+      font-size: 20px;
+   }
+
+   header h1 em{
+      font-size: 30px;
+      
+   }
+
+   #logo img{
+      margin-top: -45px;
+      height: 90px;
+      width: 90px;
+   }
+   
+   p.profilo1{
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: -3px;
+   }
+   
+   #form_film{
+      background-color: rgb(150, 0, 0);
+       text-align: center;
+       font-size: 15px;
+       border: 5PX SOLID black;
+       border-radius: 15px;
+       width: 300px;
+       max-height: 150px;
+       margin: 30px 0px 30px 0px;
+       padding: 5px 20px ;
+    }
+    
+    .oval{
+      height: 35px;
+      width: 150px;
+      border-radius: 6px;
+      text-align: center;
+      font-size: 15px;
+   }
+   
+
+   #ris_ricerca,
+   #ris_ricerca_album{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  text-align: center;
+  background-color: rgb(138, 138, 138);
+  width: 70%;
+   }
+
+
+   #ris_ricerca img,
+#ris_ricerca_album img{
+  max-width: 130px;
+  height: 190px;
+  border-bottom: 4px solid rgb(233, 41, 41);
+  margin-bottom: 15px;
+}
+
+
+
+#ris_ricerca .film,
+#ris_ricerca_album .album {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height:290px;
+
+  border: 3px solid rgb(20, 20, 20);
+   border-radius: 5px;
+  margin: 10px;
+  font-size: 15px;
+  background-color: rgb(236, 236, 236);
+}
+
+#stanghetta{
+   border-top: 3px solid black;
+   margin: 20px 50px 10px 50px;
+}
+#SCRITTA
+{
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+}
